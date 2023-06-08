@@ -137,6 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
       selectedDayHighlightColor: Colors.purple[800],
       closeDialogOnCancelTapped: true,
       firstDayOfWeek: 1,
+      todayDecoration: const BoxDecoration(),
       weekdayLabelTextStyle: const TextStyle(
         color: Colors.black87,
         fontWeight: FontWeight.bold,
